@@ -5,4 +5,6 @@ from multiplicarlistasprueba import *
 
 generarListas.GenerarListaUsuario()
 generarListas.GeneradorListaAleatoria()
+multiplicadorListas.MultiplicarListas()
+
         
