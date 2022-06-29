@@ -1,6 +1,12 @@
 from GenerarListas import generarListas
-from MultiplicadorListas import multplicadorListas
-multiplicadorListas.MultiplicarListas()
+from MultiplicadorListas import multiplicadorListas
+
+
+miObjeto=multiplicadorListas()
+
+miObjeto.MultiplicarListas()
+
+
 
 
 

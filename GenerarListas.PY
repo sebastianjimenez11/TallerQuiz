@@ -2,19 +2,18 @@ import random
 
 class generarListas: 
     
-    def GenerarListaUsuario(self):
-        for _ in range (2):
-            lista=[]
+    def GenerarListaUsuario(self,n):
+        lista=[]
+        for _ in range (n):            
             lista.append(int(input("ingrese los numeros que quiere")))
-            print(lista)
-            return lista
+        print(lista)
+        return lista
     
     def GeneradorListaAleatoria(self, n):
         lista=[]
-        for _ in range (0,100):
+        for _ in range (n):
             a=random.randint(0,50)
+            lista.append(a)
         print(lista)
         return lista
-generarListas.GenerarListaUsuario()
-generarListas.GeneradorListaAleatoria()
         
