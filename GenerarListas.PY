@@ -1,6 +1,6 @@
 import random
 
-class GenerarListas: 
+class generarListas: 
     
     def GenerarListaUsuario():
         print("Ingrese 3 numeros=")
@@ -16,6 +16,6 @@ class GenerarListas:
             a=random.randint(0,50)
         print(lista)
         
-GenerarListas.GenerarListaUsuario()
-GenerarListas.GeneradorListaAleatoria()
+generarListas.GenerarListaUsuario()
+generarListas.GeneradorListaAleatoria()
         
